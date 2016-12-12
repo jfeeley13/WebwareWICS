@@ -2,10 +2,17 @@ body{
 	font-family:"Arial",sans-serif; 
 	font-size:14pt; 
 	color:#828282;
-	/*background-color:#d7d7d7;*/
+	background-color:#ece9ff;
 }
-h1{text-align:left; font-weight:normal; /*color:teal;*/}
-h2{}
+h1
+{
+ 	font-size: 55px;
+  font-family: 'Ravi Prakash', cursive;
+ 	background: #8bd6e3;
+}
+
+h1{text-align:left; font-weight:normal; color:teal;}
+h2{font-weight:bold;  font-family: 'Ravi Prakash', cursive; font-size: 37px;}
 h3{}
 ul{padding:0px; margin:0px;}
 
@@ -18,8 +25,13 @@ ul{padding:0px; margin:0px;}
 
 .nav {
 	font-family:"Arial", sans-serif;
+	text-align: center;
+	font-size: 22px;
 	margin-bottom: 50px;
-	border-bottom: 1px solid blue; /*nav bar line*/
+	border-bottom: 1px solid purple; /*nav bar line*/
+	margin-left:0px;
+	margin-right:0px;
+	background: #9c92ff;
 }
 
 .nav ul li{
@@ -31,17 +43,17 @@ ul{padding:0px; margin:0px;}
 }
 
 .nav a:link{
-	color: #ADD8C7;
+	color: teal;
 	text-decoration:none;
 }
 
 .nav a:visited{
-	color: #ADD8C7;
+	color: teal;
 	text-decoration:none;
 }
 
 .nav a:hover{
-	color:#828282;
+	color:teal;
 }
 
 .nav a:active{
@@ -76,9 +88,25 @@ ul{padding:0px; margin:0px;}
 
 .home_image{
 	float:right;
-	margin-left:20px;
+	margin-left:0px;
+	margin-right:0px;
 	margin-bottom:20px;
+	height: 270px;
+	width: 1200px;
 }
+
+.officer{
+	height: 300px;
+	width: 250px;
+}
+
+.officerTitle{
+  	font-family: 'Ravi Prakash', cursive;
+ 	font-size: 30px;
+	text-align: right;
+}
+
+
 
 .box_right{
 	float: right;
@@ -103,10 +131,11 @@ ul{padding:0px; margin:0px;}
 .footer{
 	padding: 5px;
 /*	background: #ADD8C7;
-*/	color: #fff;
+*/	color: #356F82;
 	width: 100%;
 	text-align: center;
-	font-family:"Lucida Console", sans-serif;
+	font-size: 17px;
+	font-family:"Arial", sans-serif;
 	margin-left:auto;
 	margin-right:auto;
 }
