@@ -1,5 +1,4 @@
-var http = require('http')
-	, express = require('express')
+var express = require('express')
   , port = 9090;
 
 var app = express()
