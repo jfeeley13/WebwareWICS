@@ -1,14 +1,17 @@
-body{
+body {
 	font-family:"Arial",sans-serif; 
 	font-size:14pt; 
 	color:#828282;
 	background-color:#ece9ff;
 }
 
-h1 {
-	text-align:left;
-	font-weight:normal;
-	color:teal;
+.banner {
+	background-color: #9c92ff;
+}
+
+.banner img {
+	display: block;
+	margin: 0 auto;
 }
 
 h2 {
@@ -34,10 +37,10 @@ ul {
 	text-align: center;
 	font-size: 22px;
 	margin-bottom: 50px;
-	border-bottom: 1px solid purple; /*nav bar line*/
 	margin-left:0px;
 	margin-right:0px;
 	background: #9c92ff;
+	width: 100%;
 }
 
 .nav ul li{
@@ -49,21 +52,21 @@ ul {
 }
 
 .nav a:link{
-	color: teal;
+	color: white;
 	text-decoration:none;
 }
 
 .nav a:visited{
-	color: teal;
+	color: white;
 	text-decoration:none;
 }
 
 .nav a:hover{
-	color:teal;
+	color:white;
 }
 
 .nav a:active{
-	color:teal;
+	color:white;
 	text-decoration:none;
 }
 
@@ -93,7 +96,6 @@ ul {
 }
 
 .home_image{
-	float:right;
 	margin-left:0px;
 	margin-right:0px;
 	margin-bottom:20px;
@@ -107,7 +109,7 @@ ul {
 }
 
 .officerTitle{
-  	font-family: 'Ravi Prakash', cursive;
+  font-family: 'Courgette', cursive;
  	font-size: 30px;
 	text-align: right;
 }
