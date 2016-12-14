@@ -218,6 +218,7 @@ ul {
 
 #mbars {
 	margin: auto;
+	width: 600px;
 }
 
 .axis path,
