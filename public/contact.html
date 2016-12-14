@@ -5,6 +5,7 @@
     <title>About</title>
     <link rel="stylesheet" type="text/css" href="css/style.css">
 		<link href="https://fonts.googleapis.com/css?family=Courgette" rel="stylesheet">
+		<script src="js/scripts.js"></script>
   </head>
 
   <body>
@@ -93,6 +94,24 @@
 
 				<p>Advisor: Kathi Fisler</p>			</div><!-- end content -->
 
+			<div id="addmembers">
+				<h2>WiCS Members</h2>
+				<p>Part of WiCS or want to be a part of it? Add your name and email
+				here!</p>
+				<form method="post" onsubmit="return false;">
+					<label for="name">Name</label>
+					<input type="text" maxLength="40" id="name" name="name" />
+					<label for="email">Email</label>
+					<input type="email" maxLength="40" id="email" name="email" />
+					<button type="submit" onclick="addMember();">Add</button>
+				</form>
+				
+				<div class="memberlist">
+					<ul id="mlist">
+						
+					</ul>
+				</div>
+			</div>
 			<div class="footer">
 				<img src="pictures/WICSlogo.png" alt="logo" height="70px" width="170px"/>
 				<p style="margin-top: 0px;">WPI Women in Computer Science</p>
