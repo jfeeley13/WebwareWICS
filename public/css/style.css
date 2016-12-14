@@ -4,17 +4,23 @@ body{
 	color:#828282;
 	background-color:#ece9ff;
 }
-h1
-{
- 	font-size: 55px;
-  font-family: 'Ravi Prakash', cursive;
- 	background: #8bd6e3;
+
+h1 {
+	text-align:left;
+	font-weight:normal;
+	color:teal;
 }
 
-h1{text-align:left; font-weight:normal; color:teal;}
-h2{font-weight:bold;  font-family: 'Ravi Prakash', cursive; font-size: 37px;}
-h3{}
-ul{padding:0px; margin:0px;}
+h2 {
+	font-weight:bold;
+	font-family: 'Courgette', cursive;
+	font-size: 37px;
+}
+
+ul {
+	padding:0px;
+	margin:0px;
+}
 
 .main{
 	width:80%;
@@ -105,8 +111,6 @@ ul{padding:0px; margin:0px;}
  	font-size: 30px;
 	text-align: right;
 }
-
-
 
 .box_right{
 	float: right;
