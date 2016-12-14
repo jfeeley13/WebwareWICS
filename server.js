@@ -43,6 +43,15 @@ app.post('/listMembers', function(req, res) {
 
 function startDB() {
 	db.serialize(function() {
-		db.run('CREATE TABLE IF NOT EXISTS members (name, email)')
+		db.run('CREATE TABLE IF NOT EXISTS members (name, email)',[], function() {
+			db.run('INSERT INTO members VALUES ($name, $email)', {
+				$name: "Jordan Feeley",
+				$email: "jefeeley@wpi.edu"
+			})
+			db.run('INSERT INTO members VALUES ($name, $email)', {
+				$name: "Bailey Sheridan",
+				$email: "bsheridan@wpi.edu"
+			})
+		})
 	})
 }
