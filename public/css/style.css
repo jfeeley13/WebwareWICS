@@ -3,6 +3,7 @@ body {
 	font-size:14pt; 
 	color:#828282;
 	background-color:#ece9ff;
+	margin-top: 0;
 }
 
 .banner {
@@ -23,6 +24,23 @@ h2 {
 ul {
 	padding:0px;
 	margin:0px;
+}
+
+#officersID {
+	width: 100%;
+}
+
+.officer {
+	width: 100%;
+	display: inline;
+}
+
+.officer .officerTitle{
+	float: right;
+}
+
+.officer p {
+	float: right;
 }
 
 .main{
@@ -65,12 +83,7 @@ ul {
 	color:white;
 }
 
-.nav a:active{
-	color:white;
-	text-decoration:none;
-}
-
-.nav ul li a#active{
+.nav #active{
 	color:teal;
 	text-decoration:none;
 }
