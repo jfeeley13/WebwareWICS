@@ -114,6 +114,9 @@ ul {
 	margin-bottom:20px;
 }
 
+
+
+
 .officer{
 	height: 300px;
 	width: 250px;
@@ -148,6 +151,46 @@ ul {
 	padding: 0 1% 0 1%;
 	/*padding: 1%;*/
 	margin: 1%;
+}
+
+/*cs*/
+.highcharts-point.highcharts-color-0,
+.highcharts-legend-item.highcharts-color-0 .highcharts-point,.highcharts-tooltip .highcharts-color-0 {
+	fill: #8C8C8C;
+}
+.highcharts-point.highcharts-color-1,
+.highcharts-legend-item.highcharts-color-1 .highcharts-point,.highcharts-tooltip .highcharts-color-1 {
+	fill: #BCB696;
+}
+
+/*cs*/
+.highcharts-point.highcharts-color-2,
+.highcharts-legend-item.highcharts-color-2 .highcharts-point,.highcharts-tooltip .highcharts-color-2 {
+	fill: #2c55c3;
+}
+.highcharts-point.highcharts-color-3,
+.highcharts-legend-item.highcharts-color-3 .highcharts-point,.highcharts-tooltip .highcharts-color-3 {
+	fill: #5cafc7;
+}
+
+/*ECE*/
+.highcharts-point.highcharts-color-4,
+.highcharts-legend-item.highcharts-color-4 .highcharts-point,.highcharts-tooltip .highcharts-color-4 {
+	fill: #F8D41E;
+}
+.highcharts-point.highcharts-color-5,
+.highcharts-legend-item.highcharts-color-6 .highcharts-point,.highcharts-tooltip .highcharts-color-5 {
+	fill: #eef00a;
+}
+
+/*ME*/
+.highcharts-point.highcharts-color-6,
+.highcharts-legend-item.highcharts-color-6 .highcharts-point,.highcharts-tooltip .highcharts-color-6 {
+	fill: #652019;
+}
+.highcharts-point.highcharts-color-7,
+.highcharts-legend-item.highcharts-color-7 .highcharts-point,.highcharts-tooltip .highcharts-color-7 {
+	fill: #c75c72;
 }
 
 .footer{
