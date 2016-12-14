@@ -176,7 +176,7 @@ ul {
 /*ECE*/
 .highcharts-point.highcharts-color-4,
 .highcharts-legend-item.highcharts-color-4 .highcharts-point,.highcharts-tooltip .highcharts-color-4 {
-	fill: #F8D41E;
+	fill: #F8D41E; /*F8D41E*/
 }
 .highcharts-point.highcharts-color-5,
 .highcharts-legend-item.highcharts-color-6 .highcharts-point,.highcharts-tooltip .highcharts-color-5 {
