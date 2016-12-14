@@ -216,6 +216,10 @@ ul {
 
 /* CHART STYLING */
 
+#mbars {
+	margin: auto;
+}
+
 .axis path,
 .axis line {
 	fill: none;

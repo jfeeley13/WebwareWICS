@@ -12,10 +12,8 @@
 			stack(dataset);
 
 			var color_hash = {
-				  0 : ["Women","#1f77b4"],
-					1 : ["Men","#2ca02c"],
-					2 : ["Decline","#ff7f0e"]
-
+				  0 : ["Women","#5cafc7"],
+					1 : ["Men","#2c55c3"]
 			};
 
 			//Set up scales
@@ -147,8 +145,7 @@
 	        .attr("x", (w / 2))             
 	        .attr("y", 20)
 	        .attr("text-anchor", "middle")  
-	        .style("font-size", "16px") 
-	        .style("text-decoration", "underline")  
+	        .style("font-size", "16px")
 	        .text("Number of undergraduate students in CS At WPI");
 
 		});
