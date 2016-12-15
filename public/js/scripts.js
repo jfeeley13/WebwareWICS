@@ -25,7 +25,7 @@ function listMembers() {
 
 function writeFromDB(members) {
 	var mList = document.getElementById("mlist")
-	mList.innerHTML = ''
+	mList.innerHTML = "<th>Name</th><th>Email</th>"
 	members.forEach(function(t) {
 			mList.innerHTML += "<tr><td>" + t.name + "</td>" + "<td>" + t.email + "</td></tr>"
 	})
