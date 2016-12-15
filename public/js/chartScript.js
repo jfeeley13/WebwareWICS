@@ -71,7 +71,18 @@ console.log(container);
             name: 'ECE Women',
             data: [47, 63, 68, 64, 67],
             stack: 'ECE'
-        },        {
+        },  
+        {
+            name: 'BME Male',
+            data: [183, 189, 181, 153, 155],
+            stack: 'BME'
+        }, 
+        {
+            name: 'BME Women',
+            data: [233, 235, 228, 244, 234],
+            stack: 'BME'
+        },      
+        {
             name: 'ME Male',
             data: [651, 668, 708, 731, 759],
             stack: 'ME'

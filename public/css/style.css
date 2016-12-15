@@ -189,10 +189,20 @@ ul {
 /*ME*/
 .highcharts-point.highcharts-color-6,
 .highcharts-legend-item.highcharts-color-6 .highcharts-point,.highcharts-tooltip .highcharts-color-6 {
-	fill: #652019;
+	fill: #18a91a;
 }
 .highcharts-point.highcharts-color-7,
 .highcharts-legend-item.highcharts-color-7 .highcharts-point,.highcharts-tooltip .highcharts-color-7 {
+	fill: #95dd71;
+}
+
+/*ME*/
+.highcharts-point.highcharts-color-8,
+.highcharts-legend-item.highcharts-color-8 .highcharts-point,.highcharts-tooltip .highcharts-color-8 {
+	fill: #652019;
+}
+.highcharts-point.highcharts-color-9,
+.highcharts-legend-item.highcharts-color-9 .highcharts-point,.highcharts-tooltip .highcharts-color-9 {
 	fill: #c75c72;
 }
 
