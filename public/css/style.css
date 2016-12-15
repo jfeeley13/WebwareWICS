@@ -6,6 +6,12 @@ body {
 	margin-top: 0;
 }
 
+.toBeCentered {
+	text-align: center;
+	margin: auto;
+	width: 100%;
+}
+
 .banner {
 	background-color: #9c92ff;
 }
@@ -113,9 +119,6 @@ ul {
 	margin-right:0px;
 	margin-bottom:20px;
 }
-
-
-
 
 .officer{
 	height: 300px;
