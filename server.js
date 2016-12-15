@@ -6,7 +6,9 @@ var express = require('express')
 var app = express()
 var db = new sqlite3.Database(':memory:')
 
-app.listen(port, function() {
+app.set('port', (process.env.PORT || port));
+
+app.listen(app.get('port'), function() {
 	console.log("Listening on " + port)
 	startDB()
 	app.use(express.static('public'))
